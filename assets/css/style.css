@@ -95,16 +95,6 @@ header .button a{
 
 
 
-
-
-
-
-
-
-
-
-
-
 /*MAIN*/
 main{
     background-color: var(--roxo);
@@ -178,11 +168,12 @@ footer nav .social-midia{
     border-top: 1px solid var(--roxo);
     margin: 10px 0px 0px;
     padding: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
 }
 footer nav .social-midia li {
     margin: 0 10% 5%;
-    display: flex;
-    justify-content: center;   
+       
 }
 footer nav .social-midia li a{
 }
@@ -216,8 +207,6 @@ footer nav .social-midia li a p{
         padding: 1rem;
         margin: 1rem;        
     }
-    
-
 
     footer nav .social-midia{
         display: flex;
