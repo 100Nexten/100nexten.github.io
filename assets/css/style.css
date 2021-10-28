@@ -181,7 +181,8 @@ footer nav .social-midia{
 }
 footer nav .social-midia li {
     margin: 0 10% 5%;
-    text-align: center;
+    display: flex;
+    justify-content: center;   
 }
 footer nav .social-midia li a{
 }
@@ -193,11 +194,6 @@ footer nav .social-midia li a p{
     color: white
 }
 
-
-/*EXTRAS*/
-
-
-/*@MIDIAS*/
 @media only screen and (min-width: 768px) {
     .linha{
         display: flex;
