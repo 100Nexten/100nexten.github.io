@@ -1,5 +1,5 @@
 async function getProjects(){ 
-    const data = await fetch('https://api.github.com/users/100Nexten/repos').then(data => data.json())
+    const data = await fetch('https://api.github.com/users/prenholatochris/repos').then(data => data.json())
     let projects = []
     data.map((repo) =>{
         repo.has_pages && projects.push(repo)
